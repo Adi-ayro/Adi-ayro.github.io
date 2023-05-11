@@ -106,6 +106,14 @@ a{
 }
 
 @media only screen and (max-width: 700px) {
+.cursor{
+    width: 0px;
+    height: 0px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 50%;
+    position: absolute;
+}		
+	
     .heading{
         font-size: 8vw;
     }
